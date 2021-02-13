@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fod Item</title>
     <link rel="stylesheet" href="fod.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-    <div ></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div> 
-    <img src="web ul 1.png" alt="aa">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    
+  
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex">
+        <input id="search-field" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button onclick="Categories()" class="btn btn-outline-success" type="button">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div id="categories">
+
+  </div>
+  
     <script src="fod.js"></script>
 </body>
 </html>

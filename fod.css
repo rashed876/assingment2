@@ -1,0 +1,22 @@
+
+#categories{
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-gap: 25px;
+}
+
+.gorop{
+    border: 2px solid greenyellow;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+.categoreItem{
+font-size: 30px;
+color: blueviolet;
+}
+.detelis{
+    font-size: 20px;
+color: cornflowerblue;
+}
